@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/******************************************
+/* Body
+/*******************************************/
+
+body {
+    background-image: url("images/quotesBgFifty.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+
+
+/******************************************
+/* Header
+/*******************************************/
+
+
+h1 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/******************************************
+/* Body
+/*******************************************/
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 40% 0 40%;
+}
+
+.author {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    margin: 10% 43% 0 44%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    background: #D7BAB1;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: .5%;
+}
+
+.note {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
